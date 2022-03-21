@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Open+Sans:wght@400;500;600;700&display=swap');
+
+* {
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    /* color-scheme */  
+    --bg-color:#FFFFFF;
+    --txt-color:#000000;
+    --fade-color:#C4C4C4;
+    --comment-color:#636060;
+    --primary-color:#83C90D;
+    --secondary-color:#1BA1DE; 
+    /* fonts */
+    --header-font:'Open Sans', sans-serif;
+    --body-font: 'Lato', sans-serif;
+    
+
+}
+
+body {
+    
+    font-weight: 100;
+    color: var(--text-color);
+    font-family:var(--body-font);
+    background-color: var(--bg-color);
+}
+
+a {
+    text-decoration: none;
+}
+
+h1, h2 {
+    font-weight: 400;
+    color: var(--primary-color);
+    
+}
+
+@media screen {}
+    
+/* ipad/tablet */
+@media only screen and (min-width:48.0em){ 
+}
+
+/* ipad pro screens & laptop */
+@media only screen and (min-width:49.0em) and (max-width:64em) {
+}
+
+/* large screens : Desktop and 4k screens */
+
+@media only screen and (min-width:64.063em) and (max-width:90.0em) {
+}
+
+/* 5k screens and above */
+@media only screen and (min-width:91.0em) {
+}

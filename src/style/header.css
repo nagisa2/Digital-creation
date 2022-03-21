@@ -1,0 +1,170 @@
+@media screen {
+    .header-c {
+        background-color: var(--primary-color);
+        
+    }
+    
+    .nav {
+    
+        height:60px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    
+        
+    }
+    
+    .logo {
+        height: 50px;
+        width: 50px;
+    }
+    
+
+    .nav-links {
+        display: none;
+    }
+}
+/* ipad/tablet */
+@media only screen and (min-width:48.0em){ 
+
+    .header-c {
+
+        background-color: var(--primary-color);
+        padding-right: 210px;
+        padding-left: 30px;
+        height: 60px;
+     
+    }
+    
+    .nav {
+
+        display: flex;
+        padding: 30px 0;
+        align-items: center;
+        justify-content: space-between;
+    
+        
+    }
+    
+    
+    .nav-links {
+        display: flex;
+        flex-grow:0.3;
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .link { 
+        color: var(--bg-color);
+        font-size: 1rem;
+    
+    }
+    
+    
+    .link:hover {
+        color: var(--secondary-color);
+    }
+
+}
+
+/* ipad pro screens & laptop */
+@media only screen and (min-width:49.0em) and (max-width:64em) {
+
+
+    
+    .header-c {
+
+        background-color: var(--primary-color);
+        padding-right: 300px;
+        padding-left: 30px;
+        height: 70px;
+     
+    }
+
+    .logo {
+        height: 60px;
+        width: 60px;
+    }
+    
+    .nav {
+
+        display: flex;
+        padding: 35px 0;
+        align-items: center;
+        justify-content: space-between;
+    
+        
+    }
+    
+    
+    .nav-links {
+        display: flex;
+        flex-grow:0.3;
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .link { 
+        color: var(--bg-color);
+        font-size: 1.2rem;
+    
+    }
+    
+    
+    .link:hover {
+        color: var(--secondary-color);
+    }
+
+
+}
+
+/* large screens : Desktop and 4k screens */
+
+@media only screen and (min-width:64.063em) and (max-width:90.0em) {
+
+    .header-c {
+        border: 2px solid black;
+        padding-right: 400px;
+        padding-left: 30px;
+        background-color: var(--primary-color);
+        
+        
+    }
+    
+    .nav {
+    
+        height:50px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    
+        
+    }
+    
+    .logo {
+        height: 40px;
+        width: 40px; 
+    }
+    
+    .nav-links {
+        display: flex;
+        flex-grow:0.2;
+        justify-content: space-between;
+        border: 2px solid black;
+        display: flex;
+    }
+    
+    .link { 
+        color: var(--bg-color);
+    
+    }
+    
+    
+    .link:hover {
+        color: var(--secondary-color);
+    }
+
+}
+/* 5k screens and above */
+@media only screen and (min-width:91.0em) {
+}
