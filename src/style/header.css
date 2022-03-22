@@ -1,5 +1,6 @@
 @media screen {
     .header-c {
+    
         background-color: var(--primary-color);
         
     }
@@ -50,7 +51,6 @@
     .nav-links {
         display: flex;
         flex-grow:0.3;
-        display: flex;
         justify-content: space-between;
     }
     
@@ -100,7 +100,6 @@
     .nav-links {
         display: flex;
         flex-grow:0.3;
-        display: flex;
         justify-content: space-between;
     }
     
@@ -123,9 +122,9 @@
 @media only screen and (min-width:64.063em) and (max-width:90.0em) {
 
     .header-c {
-        border: 2px solid black;
         padding-right: 400px;
         padding-left: 30px;
+        height: 90px;
         background-color: var(--primary-color);
         
         
@@ -135,6 +134,7 @@
     
         height:50px;
         display: flex;
+        padding: 40px 0;
         align-items: center;
         justify-content: space-between;
     
@@ -142,16 +142,14 @@
     }
     
     .logo {
-        height: 40px;
-        width: 40px; 
+        height: 50px;
+        width: 50px; 
     }
     
     .nav-links {
         display: flex;
         flex-grow:0.2;
         justify-content: space-between;
-        border: 2px solid black;
-        display: flex;
     }
     
     .link { 
@@ -167,4 +165,47 @@
 }
 /* 5k screens and above */
 @media only screen and (min-width:91.0em) {
+
+    .header-c {
+        padding-right: 1000px;
+        padding-left: 30px;
+        height: 130px;
+        background-color: var(--primary-color);
+        
+        
+    }
+    
+    .nav {
+    
+        height:50px;
+        display: flex;
+        padding: 60px 0;
+        align-items: center; 
+        justify-content: space-between;
+    
+        
+    }
+    
+    .logo {
+        height: 80px;
+        width: 80px; 
+    }
+    
+    .nav-links {
+        display: flex;
+        flex-grow:0.2;
+        justify-content: space-between;
+    }
+    
+    .link { 
+        font-size: 2rem;
+        color: var(--bg-color);
+    
+    }
+    
+    
+    .link:hover {
+        color: var(--secondary-color);
+    }
+
 }

@@ -10,9 +10,9 @@
         <RouterLink to="/service" class="link">Service</RouterLink>
         <RouterLink to="/contact" class="link">Contact</RouterLink>
       </div>
-      <RouterView />
     </div>
   </div>
+   <RouterView />
 </template>
 <script setup>
 import { RouterLink, RouterView } from "vue-router";
