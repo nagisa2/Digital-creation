@@ -1,0 +1,60 @@
+  
+  .img-company {
+    overflow: hidden;
+    height: 810px;
+    width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .img-container {
+    width: 2912px;
+    animation: slide 18s ease infinite;
+  }
+  
+  .slide {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    float: left;
+    height: 510px;
+    width: 1200px;
+  }
+  
+  .slide:nth-child(1) {
+    background-image: url(../assets/creation1.jpg);
+  }
+  
+  .slide:nth-child(2) {
+    background-image: url(../assets/creation2.jpg);
+  }
+  
+  .slide:nth-child(3) {
+    background-image: url(../assets/creation3.jpg);
+  }
+
+  .slide:nth-child(4) {
+    background-image: url(../assets/creation4.jpg);
+  }
+
+  .slide:nth-child(5) {
+    background-image: url(../assets/creation5.jpg);
+  }
+
+  .slide:nth-child(6) {
+    background-image: url(../assets//creation6.jpg);
+  }
+  
+
+  
+
+  
+  @keyframes slide {
+    20% {margin-left: 0px;}
+    30% {margin-left: -1200px;}
+    50% {margin-left: -1200px;}
+    60% {margin-left: -1456px;}
+    70% {margin-left: -1456px;}
+    80% {margin-left: -2184px;}
+    90% {margin-left: -2184px;}
+  }
+  

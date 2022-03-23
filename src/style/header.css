@@ -77,7 +77,7 @@
         background-color: var(--primary-color);
         padding-right: 300px;
         padding-left: 30px;
-        height: 70px;
+        height: 80px;
      
     }
 
@@ -122,7 +122,7 @@
 @media only screen and (min-width:64.063em) and (max-width:90.0em) {
 
     .header-c {
-        padding-right: 400px;
+        padding-right: 470px;
         padding-left: 30px;
         height: 90px;
         background-color: var(--primary-color);

@@ -1,9 +1,106 @@
 .company-c {
-    border:2px solid black;
-    top:0;
-    left: 0;
-    right:0;
-    bottom: 0;
-    position: relative;
-    
+    height: 100vh;
+    background-color: var(--primary-color)
 }
+
+.company-hero {
+
+    left: 0;
+    right: 0;
+    top:20%;
+    display: flex;
+    position: absolute;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+   
+}
+
+.company-txt {
+    text-align: center;
+    width: 50%;
+}
+
+.company-txt h1, h3{
+    color: var(--bg-color);
+    margin: 20px 0;
+}
+
+.company-txt h1 {
+    font-family: var(--header-font);
+    font-size: 4rem;
+}
+
+.company-txt h3 {
+    text-transform: uppercase;
+    font-size: 0.8rem;
+    font-weight: 100;
+}
+
+.company-btn {
+    gap: 30px;
+    display:flex;
+    margin: 20px 0;
+
+}
+
+
+.btn-hero {
+    outline:none;
+    border: none;
+    cursor:pointer;
+    font-weight:100;
+    font-size: .8rem;
+    border-radius: 8px;
+    text-align: center;
+    padding: 10px 25px;
+    color: var(--bg-color);
+    background-color: var(--secondary-color);
+
+}
+
+.btn-c {
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+}
+
+.arrow {
+    height: 22px;
+    width: 22px;
+    margin-left: 5px;
+}
+
+.btn-hide {
+    outline:none;
+    border:none;
+    font-weight:100;
+    color: var(--bg-color);
+    background-color: var(--primary-color);
+}
+
+.btn-hide:hover {
+
+    outline:none;
+    border: none;
+    cursor:pointer;
+    font-weight:100;
+    font-size: .8rem;
+    border-radius: 8px;
+    text-align: center;
+    padding: 10px 25px;
+    color: var(--bg-color);
+    background-color: var(--secondary-color);
+    transition: 300ms ease-in;
+
+}
+
+.img-c {
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    bottom:400px;
+
+}
+

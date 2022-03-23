@@ -1,0 +1,15 @@
+<template>
+  <div class="img-company">
+    <div class="img-container">
+      <div class="slide"></div>
+      <div class="slide"></div>
+      <div class="slide"></div>
+      <div class="slide"></div>
+      <div class="slide"></div>
+      <div class="slide"></div>
+    </div>
+  </div>
+</template>
+<style>
+@import "../style/imgCompany.css";
+</style>
