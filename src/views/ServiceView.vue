@@ -1,18 +1,22 @@
 <template>
-  <div>
-    <div class="service-container">
-      <div class="service-card">
+  <h1>We provide the most exclusive services</h1>
+  <div class="service-container">
+    <div class="service-card">
+      <div class="service-cfg">
         <div class="card-front">
-          <div class="card-detail">
-            <img src="" alt="" class="img-front" />
-            <h4></h4>
-            <p></p>
+          <div class="card-details">
+            <img src="../assets/logo.svg" alt="logo" class="img-front" />
+            <h4>Banners</h4>
+            <p>We design and print banners</p>
           </div>
         </div>
         <div class="card-back">
-          <img src="" alt="" class="img-back" />
+          <img src="../assets/creation2.jpg" alt="card image" class="img-back" />
         </div>
       </div>
     </div>
   </div>
 </template>
+<style>
+@import "../style/serviceView.css";
+</style>
