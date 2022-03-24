@@ -1,0 +1,31 @@
+.about-us {
+    display: flex;
+    align-items:center;
+    justify-content:center;
+}
+
+.about {
+    flex:50%;
+}
+
+.img-imgAbout {
+    width:500px;
+    height:500px;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 0 20px 0 20px;
+}
+
+.about-info {
+    padding: 65px;
+}
+
+.about-info h1 {
+    font-size: 1.5rem;
+    font-weight: 500px;
+    padding-bottom: 10px;
+}
+
+.about-info {
+    font-size: 1.4rem;
+}

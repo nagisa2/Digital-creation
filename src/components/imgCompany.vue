@@ -1,7 +1,6 @@
 <template>
   <div class="img-company">
-    <div class="img-container">
-      <div class="slide"></div>
+    <div class="img-slide">
       <div class="slide"></div>
       <div class="slide"></div>
       <div class="slide"></div>

@@ -1,6 +1,6 @@
 .company-c {
     height: 100vh;
-    background-color: var(--primary-color)
+    background-color: var(--primary-color);
 }
 
 .company-hero {
@@ -100,7 +100,23 @@
     align-items: center;
     justify-content: center;
     position: relative;
-    bottom:400px;
+    padding: 0 30px;
+    bottom:300px;
+
 
 }
 
+.client-c {
+    position:relative;
+    bottom:230px;
+}
+
+.about-c {
+    bottom:150px;
+    padding: 30px;
+    display: flex;
+    position:relative;
+    align-items:center;
+    justify-content:center;
+   
+}

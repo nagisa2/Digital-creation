@@ -24,9 +24,21 @@
   <div class="img-c">
     <Img />
   </div>
+  <div class="client-c">
+    <Ourclients />
+  </div>
+  <div class="about-c">
+    <About />
+  </div>
+  <div class="service-c">
+    <Service />
+  </div>
 </template>
 <script setup>
+import About from "../views/AboutView.vue";
 import Img from "../components/imgCompany.vue";
+import Service from "../views/ServiceView.vue";
+import Ourclients from "../components/ourClients.vue";
 </script>
 <style>
 @import "../style/companyView.css";

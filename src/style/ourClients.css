@@ -1,0 +1,28 @@
+.clients {
+    padding: 0 30px;
+}
+
+.client-title {
+    display:flex;
+    height:60px;
+    align-items: center;
+}
+.client-title h1 {
+ 
+    font-size:1.5rem;
+    font-weight: 600;
+}
+
+.client-list li {
+    display: flex;
+    align-items:center;
+    justify-content:space-around;
+
+}
+
+.client-list li ul {
+    list-style: none;
+    font-weight: 800;
+    font-size: 1.2rem;
+    color: var(--fade-color);
+}

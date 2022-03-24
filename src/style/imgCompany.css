@@ -1,60 +1,77 @@
-  
-  .img-company {
-    overflow: hidden;
-    height: 810px;
-    width: 1200px;
-    margin: 0 auto;
-  }
-  
-  .img-container {
-    width: 2912px;
-    animation: slide 18s ease infinite;
-  }
-  
-  .slide {
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    float: left;
-    height: 510px;
-    width: 1200px;
-  }
-  
-  .slide:nth-child(1) {
+ 
+.img-company {
+  overflow: hidden;
+  height: 640px;
+  width: 1200px;
+  margin: 0 auto;
+  border-radius: 10px;
+  -webkit-filter: drop-shadow(2px 6px 12px var(--comment-color));
+  filter: drop-shadow(2px 6px 12px var(--comment-color));
+}
+
+.img-slide {
+  width: 6000px;
+  animation: slide 18s linear infinite;
+  -webkit-animation: slide 18s linear infinite;
+}
+
+/* .img-slide:hover {
+  animation-play-state: paused;
+} */
+
+.slide {
+  float: left;
+  height: 640px;
+  width: 1200px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.slide:nth-child(1) {
     background-image: url(../assets/creation1.jpg);
-  }
-  
-  .slide:nth-child(2) {
-    background-image: url(../assets/creation2.jpg);
-  }
-  
-  .slide:nth-child(3) {
-    background-image: url(../assets/creation3.jpg);
-  }
+}
 
-  .slide:nth-child(4) {
-    background-image: url(../assets/creation4.jpg);
-  }
+.slide:nth-child(2) {
+  background-image: url(../assets/creation2.jpg);
+}
 
-  .slide:nth-child(5) {
-    background-image: url(../assets/creation5.jpg);
-  }
+.slide:nth-child(3) {
+  background-image: url(../assets/creation3.jpg);
+}
 
-  .slide:nth-child(6) {
-    background-image: url(../assets//creation6.jpg);
-  }
-  
+.slide:nth-child(4) {
+  background-image: url(../assets/creation4.jpg);
+}
+
+.slide:nth-child(5) {
+  background-image: url(../assets/creation6.jpg);
+}
+
+
+
+
+@-webkit-keyframes slide {
+  10% {margin-left: 0px;}
+  20% {margin-left: -1200px;}
+  30% {margin-left: -1200px;}
+  40% {margin-left: -2400px;}
+  50% {margin-left: -2400px;}
+  60% {margin-left: -4800px;}
+  70% {margin-left: -4800px;}
 
   
+}
 
+
+@keyframes slide {
+  10% {margin-left: 0px;}
+  20% {margin-left: -1200px;}
+  30% {margin-left: -1200px;}
+  40% {margin-left: -2400px;}
+  50% {margin-left: -2400px;}
+  60% {margin-left: -4800px;}
+  70% {margin-left: -4800px;}
+ 
   
-  @keyframes slide {
-    20% {margin-left: 0px;}
-    30% {margin-left: -1200px;}
-    50% {margin-left: -1200px;}
-    60% {margin-left: -1456px;}
-    70% {margin-left: -1456px;}
-    80% {margin-left: -2184px;}
-    90% {margin-left: -2184px;}
-  }
-  
+}
