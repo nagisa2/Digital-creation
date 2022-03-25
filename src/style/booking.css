@@ -1,0 +1,171 @@
+.booking {
+    background-image: url(../assets//Book.png);
+    background-position: center;
+    justify-content:center;
+    background-size: cover;
+    align-items: center;
+    height: 70vh;
+    display: flex;
+}
+
+.booking-cfg {
+    display:flex;
+    height: 500px;
+    width: 800px;
+    /* border: 2px solid black; */
+    
+}
+
+.booking-info, .book-with{
+    flex: 50%;
+    display: flex;
+    /* border: 2px solid red; */
+    
+}
+
+
+
+.booking-info {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content:center;
+    
+}
+
+.card-info {
+    display: flex;
+    flex-direction: column;
+    /* border: 2px solid black; */
+    width:350px;
+  
+}
+
+.card-info h1,p {
+    padding: 5px 0;
+}
+
+.card-info h1 {
+    font-weight:500;
+    font-size: 1.5rem;
+    color: var(--secondary-color);
+}
+
+.card-info p {
+    font-size: 1.2rem;
+}
+
+
+
+.call-span {
+ 
+    width:100px;
+    height: 30px;
+    display: flex;
+    margin: 10px 0;
+    text-align: center;
+    align-items: center;
+    color: var(--bg-color);
+    justify-content:center;
+    background-color: var(--secondary-color);
+  
+   
+}
+
+.call-cfg {
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    
+}
+
+.call-cfg span {
+    font-size:.7rem;
+}
+
+.phone-icon {
+    height:20px;
+    width:20px;
+}
+
+.book-with {
+    display: flex;
+    align-items: center;
+    justify-content:center;
+}
+
+.booking-card {
+
+    display:flex;
+    padding: 20px;
+    height:fit-content;
+    border-radius:10px;
+    align-items: center;
+    flex-direction: column;
+    justify-content:center;
+    background-color: var(--primary-color);
+    
+}
+
+.b-card {   
+    width:250px;
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+.book-title h1 {
+    color: var(--text-color);
+    font-weight: 500;
+    font-size:1.3rem;
+}
+
+.booking-form {
+
+    display: flex;
+    margin: 10px 0;
+    flex-direction: column;
+  
+}
+
+.booking-input, .booking-textarea {
+    outline:none;
+    border: none;
+    margin: 4px 0;
+    padding: 10px 5px;
+    border-radius: 5px;
+    background-color: var(--bg-color);
+
+}
+
+
+
+.booking-input::placeholder {
+    color: var(--fade-color);
+    font-size: 0.7rem;
+}
+
+.booking-textarea {
+    border-radius: 0;
+    margin-bottom: 0;
+    height: 100px;
+}
+
+.booking-textarea::placeholder {
+    color: var(--fade-color);
+    font-size: 0.7rem;
+
+}
+
+.booking-btn {
+    background-color: var(--secondary-color);
+    color: var(--bg-color);
+    text-align: center;
+    border-radius: 8px;
+    padding: 20px 0;
+    font-size:1rem;
+    cursor:pointer;
+    outline:none;
+    border: none;
+}

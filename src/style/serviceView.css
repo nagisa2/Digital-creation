@@ -1,23 +1,36 @@
+.service {
+    display:flex;
+    width: 330px;
+}
+
+.service h1 {
+    font-size:1.4rem;
+    font-weight: 600;
+}
 .service-container {
-    background: transparent;
+   
+    justify-content: center;
+    align-items: center;
+    column-gap: 20px;
+    display: flex;
+    row-gap: 20px;
+    flex-wrap:wrap;
     perspective: 1000px; 
-    border: 2px solid black;
-    padding: 30px;
-    
-    
+    padding: 50px;    
+
+
 } 
 
 
 .service-card {
-
-    border: 2px solid black;
     display: flex;
-    height:300px;
-    width:240px;
+    height:240px;
+    width:200px;
     border-radius: 20px;
     justify-content:center;
     align-items: center;
     background-color: var(--secondary-color);
+    
 
 }
 
@@ -29,34 +42,42 @@
     width: 100%;
     height: 100%;
     text-align: center;
-    transition: transform 0.8s;
+    transition: transform 0.8s ease-in;
     transform-style: preserve-3d;
 }
 
 .service-card:hover .service-cfg {
     transform: rotateY(180deg);
+    
 }
 
 .card-front, .card-back {
     position: absolute;
-    width: 100%;
-    height: 100%;
-    -webkit-backface-visibility: hidden;
+    width: auto;
+    height: auto;
     backface-visibility: hidden;
+    -webkit-backface-visibility: hidden;
+
   }
 
   .card-back {
       display: flex;
       align-items: center;
       justify-content:center;
-   object-fit: cover;
-   object-position:center; 
-    transform: rotateY(180deg);
+      transform: rotateY(180deg);
   }
 
 .img-front {
     height:60px;
     width:60px;
+}
+
+.img-back {
+    object-fit: cover;
+    object-position:center; 
+    height:240px;
+    width:200px;
+    border-radius: 20px;
 }
 
 

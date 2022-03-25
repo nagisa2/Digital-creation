@@ -33,12 +33,28 @@
   <div class="service-c">
     <Service />
   </div>
+  <div class="portfolio-c">
+    <Portfolio />
+  </div>
+  <div class="book-c">
+    <Booking />
+  </div>
+  <div class="testimony-c">
+    <Testimony />
+  </div>
+  <div class="contact-c">
+    <Contact />
+  </div>
 </template>
 <script setup>
 import About from "../views/AboutView.vue";
 import Img from "../components/imgCompany.vue";
 import Service from "../views/ServiceView.vue";
+import Contact from "../views/ContactView.vue";
 import Ourclients from "../components/ourClients.vue";
+import Booking from "../components/bookingComponent.vue";
+import Testimony from "../components/testimonyComponent.vue";
+import Portfolio from "../components/portfolioComponent.vue";
 </script>
 <style>
 @import "../style/companyView.css";

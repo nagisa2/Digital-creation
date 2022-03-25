@@ -120,3 +120,24 @@
     justify-content:center;
    
 }
+
+.service-c {
+ 
+    display: grid;
+    padding: 30px;
+    height: 80vh;
+    
+}
+
+.portfolio-c {
+    display: flex;
+    padding: 30px;
+}
+
+.book-c {
+    padding: 30px;
+}
+
+.testimony-c {
+    padding:30px;
+}

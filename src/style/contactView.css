@@ -1,0 +1,97 @@
+.contact {
+    background-color: var(--primary-color);
+    padding: 30px;
+    height: 70vh;
+}
+.contact-heading {
+    display: flex;
+    padding: 40px 0;
+    color: var(--bg-color);
+}
+.contact-info-h {
+    flex: 60%;
+   
+}
+
+.contact-info-h h1 {
+    color: var(--bg-color);
+    font-size: 1.9rem;
+    width: 450px;
+    font: 100px;
+}
+
+.contact-btn {
+    flex: 40%;
+    display: flex;
+    justify-content:flex-end;
+}
+
+.contact-btn {
+    gap: 30px;
+    display:flex;
+    margin: 20px 0;
+
+}
+
+
+.btn-heading {
+    outline:none;
+    border: none;
+    cursor:pointer;
+    font-weight:100;
+    font-size: .8rem;
+    border-radius: 8px;
+    text-align: center;
+    padding: 10px 25px;
+    color: var(--primary-color);
+    background-color: var(--bg-color);
+    align-items: center;
+    justify-content:center;
+
+
+}
+
+.btn-cfg {
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+}
+
+.arrow-h {
+    height: 22px;
+    width: 22px;
+    margin-left: 5px;
+}
+
+.btn-hide-h {
+    outline:none;
+    border:none;
+    font-weight:100;
+    color: var(--bg-color);
+    background-color: var(--primary-color);
+}
+
+.btn-hide-h:hover {
+
+    outline:none;
+    border: none;
+    cursor:pointer;
+    font-weight:100;
+    font-size: .8rem;
+    border-radius: 8px;
+    text-align: center;
+    padding: 10px 25px;
+    color: var(--primary-color);
+    background-color: var(--bg-color);
+    transition: 300ms ease-in;
+
+}
+
+.line {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid var(--bg-color);
+    margin: 1em 0;
+    padding: 0;
+}
