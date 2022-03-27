@@ -1,15 +1,118 @@
+@media screen {
+
 .clients {
-    padding: 0 30px;
+    margin-top: 30px;
 }
 
 .client-title {
     display:flex;
-    height:60px;
     align-items: center;
 }
 .client-title h1 {
  
-    font-size:1.5rem;
+    font-size:1.2rem;
+    font-weight: 600;
+}
+
+.client-list {
+    padding:20px 0; 
+}
+
+.client-list li {
+    gap: 5px;
+    display: flex;
+    align-items:center;
+    flex-wrap: wrap;
+    justify-content:center;
+
+}
+
+.client-list li ul {
+    list-style: none;
+    font-weight: 800;
+    color: var(--fade-color);
+}
+
+
+}
+
+/* ipad/tablet */
+@media only screen and (min-width:48.0em){ 
+
+    .clients {
+        margin-top: 0;
+    }
+    
+    .client-title h1 {
+        font-size:1.6rem;
+        font-weight: 600;
+    }
+    
+    .client-list {
+        padding:20px 0; 
+    }
+    
+    .client-list li {
+        gap: 40px;
+        display: flex;
+        align-items:center;
+        flex-wrap: wrap;
+        justify-content:center;
+        
+    }
+        
+
+}
+
+
+/* ipad pro screens & laptop */
+@media only screen and (min-width:49.0em) and (max-width:64em) {
+
+
+    
+    .clients {
+        margin-top: 0;
+    }
+    
+    .client-title h1 {
+        font-size:2rem;
+    }
+    
+    .client-list {
+        padding:40px 0; 
+    }
+    
+    .client-list li {
+        gap: 50px;
+        display: flex;
+        align-items:center;
+        flex-wrap: wrap;
+        justify-content:center;
+        font-size:1.6rem;
+        
+    }
+
+}
+
+
+/* large screens : Desktop and 4k screens */
+
+@media only screen and (min-width:64.063em) and (max-width:90.0em) {
+
+    
+.clients {
+    padding: 0;
+}
+
+
+.client-title {
+    display:flex;
+    height:50px;
+    align-items: center;
+}
+.client-title h1 {
+ 
+    font-size:1.6rem;
     font-weight: 600;
 }
 
@@ -21,8 +124,47 @@
 }
 
 .client-list li ul {
-    list-style: none;
-    font-weight: 800;
-    font-size: 1.2rem;
+    font-weight: 800;   
+    font-size: 1.6rem;
     color: var(--fade-color);
+}
+
+
+}
+
+
+/* 5k screens and above */
+@media only screen and (min-width:91.0em) {
+
+
+    .clients {
+        padding: 0;
+    }
+    
+    
+    .client-title {
+        display:flex;
+        height:50px;
+        align-items: center;
+    }
+    .client-title h1 {
+     
+        font-size:1.6rem;
+        font-weight: 600;
+    }
+    
+    .client-list li {
+        display: flex;
+        align-items:center;
+        justify-content:space-around;
+    
+    }
+    
+    .client-list li ul {
+        font-weight: 800;
+        font-size: 1.6rem;
+        color: var(--fade-color);
+    }
+    
+
 }

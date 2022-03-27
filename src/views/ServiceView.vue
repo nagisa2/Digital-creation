@@ -1,6 +1,7 @@
 <template>
-  <div class="service">
-    <h1>We provide the most exclusive services</h1>
+  <div class="service-page">
+    <div class="service">
+      <h1>We provide the most exclusive services</h1>
     </div>
     <div class="service-container">
       <div class="service-card">
@@ -184,6 +185,7 @@
         </div>
       </div>
     </div>
+  </div>
 </template>
 <style>
 @import "../style/serviceView.css";

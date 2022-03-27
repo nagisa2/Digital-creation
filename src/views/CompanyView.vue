@@ -1,5 +1,5 @@
 <template>
-  <div class="company-c">
+  <div class="company">
     <div class="company-hero">
       <div class="company-txt">
         <h1>Where designs are brought to life</h1>
@@ -21,30 +21,18 @@
       </div>
     </div>
   </div>
-  <div class="img-c">
+  <div class="img-container">
     <Img />
   </div>
-  <div class="client-c">
+  <div class="constrain">
     <Ourclients />
-  </div>
-  <div class="about-c">
     <About />
-  </div>
-  <div class="service-c">
     <Service />
-  </div>
-  <div class="portfolio-c">
     <Portfolio />
-  </div>
-  <div class="book-c">
     <Booking />
-  </div>
-  <div class="testimony-c">
     <Testimony />
   </div>
-  <div class="contact-c">
-    <Contact />
-  </div>
+  <Contact />
 </template>
 <script setup>
 import About from "../views/AboutView.vue";

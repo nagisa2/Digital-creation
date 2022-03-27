@@ -1,8 +1,6 @@
 <template>
   <div class="about-us">
-    <div class="about about-img">
-      <img src="../assets/about.jpg" alt="about" class="img-imgAbout" />
-    </div>
+    <div class="about about-img"></div>
     <div class="about about-info">
       <h1>Who we are?</h1>
       <p>

@@ -1,7 +1,8 @@
 @media screen {
-    .header-c {
+    .header {
     
         background-color: var(--primary-color);
+        border: 2px solid var(--primary-color);
         
     }
     
@@ -11,13 +12,14 @@
         display: flex;
         align-items: center;
         justify-content: space-between;
+        
     
         
     }
     
     .logo {
-        height: 50px;
-        width: 50px;
+        height: 60px;
+        width: 60px;
     }
     
 
@@ -28,10 +30,10 @@
 /* ipad/tablet */
 @media only screen and (min-width:48.0em){ 
 
-    .header-c {
+    .header {
 
         background-color: var(--primary-color);
-        padding-right: 210px;
+        padding-right: 270px;
         padding-left: 30px;
         height: 60px;
      
@@ -56,7 +58,8 @@
     
     .link { 
         color: var(--bg-color);
-        font-size: 1rem;
+        font-size: .9rem;
+        font-weight:100; 
     
     }
     
@@ -72,10 +75,10 @@
 
 
     
-    .header-c {
+    .header {
 
         background-color: var(--primary-color);
-        padding-right: 300px;
+        padding-right: 350px;
         padding-left: 30px;
         height: 80px;
      
@@ -105,7 +108,8 @@
     
     .link { 
         color: var(--bg-color);
-        font-size: 1.2rem;
+        font-size: 1rem;
+        font-weight:100; 
     
     }
     
@@ -121,8 +125,8 @@
 
 @media only screen and (min-width:64.063em) and (max-width:90.0em) {
 
-    .header-c {
-        padding-right: 470px;
+    .header {
+        padding-right: 550px;
         padding-left: 30px;
         height: 90px;
         background-color: var(--primary-color);
@@ -154,6 +158,8 @@
     
     .link { 
         color: var(--bg-color);
+        font-size: 1rem;
+        font-weight:100; 
     
     }
     
@@ -166,8 +172,8 @@
 /* 5k screens and above */
 @media only screen and (min-width:91.0em) {
 
-    .header-c {
-        padding-right: 1000px;
+    .header {
+        padding-right: 750px;
         padding-left: 30px;
         height: 130px;
         background-color: var(--primary-color);
@@ -198,7 +204,7 @@
     }
     
     .link { 
-        font-size: 2rem;
+        font-size: 1rem;
         color: var(--bg-color);
     
     }

@@ -16,33 +16,31 @@
           </div>
         </div>
       </div>
-      <div class="book-with">
-        <div class="booking-card">
-          <div class="b-card">
-            <div class="book-title">
-              <h1>Book with us</h1>
-            </div>
-            <form class="booking-form">
-              <input
-                type="text"
-                v-model="Name"
-                placeholder="Name"
-                class="booking-input"
-              />
-              <input
-                type="text"
-                v-model="Phone"
-                placeholder="Phone number"
-                class="booking-input"
-              />
-              <textarea
-                v-model="Message"
-                placeholder="Tell us what you want"
-                class="booking-textarea"
-              />
-            </form>
-            <button class="booking-btn">Book now</button>
+      <div class="booking-card">
+        <div class="b-card">
+          <div class="book-title">
+            <h1>Book with us</h1>
           </div>
+          <form class="booking-form">
+            <input
+              type="text"
+              v-model="Name"
+              placeholder="Name"
+              class="booking-input"
+            />
+            <input
+              type="text"
+              v-model="Phone"
+              placeholder="Phone number"
+              class="booking-input"
+            />
+            <textarea
+              v-model="Message"
+              placeholder="Tell us what you want"
+              class="booking-textarea"
+            />
+          </form>
+          <button class="booking-btn">Book now</button>
         </div>
       </div>
     </div>
