@@ -73,3 +73,70 @@
 }
     
 }
+
+/* ipad/tablet */
+@media only screen and (min-width:48.0em){ 
+
+    
+    .testimony-cfg {
+        row-gap:40px;
+        column-gap: 20px;
+        margin: 20px 0;
+    
+    }
+    
+    
+    .testimony-title {
+        margin-top:100px;
+        width:200px;
+    }
+    
+    .testimony-title h1 {
+        font-size:1.2rem;
+        font-weight: 600;
+    }
+
+}
+
+/* ipad pro screens & laptop */
+@media only screen and (min-width:49.0em) and (max-width:64em) {
+
+    .testimony-cfg {
+        row-gap:40px;
+        column-gap:30px;
+        margin: 20px 0;
+    
+    }
+    
+
+}
+
+
+/* large screens : Desktop and 4k screens */
+
+@media only screen and (min-width:64.063em) and (max-width:90.0em) {
+
+
+    .testimony-cfg {
+        row-gap:40px;
+        column-gap:70px;
+        margin: 20px 0;
+    
+    }
+    
+    
+
+}
+
+/* 5k screens and above */
+@media only screen and (min-width:91.0em) {
+
+    .testimony-cfg {
+        row-gap:40px;
+        column-gap:80px;
+        margin: 20px 0;
+    
+    }
+    
+
+}

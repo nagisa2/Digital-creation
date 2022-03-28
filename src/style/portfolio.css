@@ -1,6 +1,161 @@
+@media screen {
+
 .portfolio {
-    margin-top: 50px;
-    margin-bottom: 60px;
+    padding: 30px 0;
+    margin: 50px 0;
+}
+
+.portfolio-title {
+    display:flex;
+    width:60%;
+    height:50px;
+
+}
+
+.portfolio-title h1 {
+    font-size:1.2rem;
+    font-weight: 500;
+}
+
+.portfolio-layout {
+    display: flex;
+    flex-wrap: wrap; 
+    padding-top: 15px; 
+}
+
+.main-layout {
+    display: none;
+}
+
+
+.other-layout {
+    flex: 40%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    row-gap: 20px;
+}
+
+.image-layout {
+    display: flex;
+}
+
+.inner-layout {
+    width:250px;
+    display: flex;
+    flex-direction: column;
+}
+
+.other-image {
+    height: 150px;
+    object-fit: cover;
+    object-position: center;
+}
+
+.image-info {
+    display: flex;
+    flex-direction: column;
+    justify-content:space-around;
+    width: auto;
+}
+
+.image-info h1 {
+    font-size: .9rem;
+    font-weight: 100;
+    margin-top: 5px;
+
+}
+
+.image-info p {
+    font-size: .9rem;
+}
+
+}
+
+/* ipad/tablet */
+@media only screen and (min-width:48.0em){ 
+
+    .portfolio {
+        padding: 30px 0;
+        margin: 50px 0;
+    }
+    
+    .portfolio-title {
+        display:flex;
+        width:60%;
+        height:50px;
+    
+    }
+    
+    .portfolio-title h1 {
+        font-size:1.4rem;
+        font-weight: 500;
+    }
+    
+    .portfolio-layout {
+        display: flex;
+        flex-wrap: wrap; 
+        padding-top: 15px; 
+    }
+    
+    .main-layout {
+        display: none;
+    }
+    
+    
+    .other-layout {
+        flex: 40%;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        flex-wrap: wrap;
+        row-gap: 20px;
+    }
+    
+    .image-layout {
+        display: flex;
+    }
+    
+    .inner-layout {
+        width:250px;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .other-image {
+        /* border: 2px solid green; */
+        height: 150px;
+        object-fit: cover;
+        object-position: center;
+    }
+    
+    .image-info {
+        display: flex;
+        flex-direction: column;
+        justify-content:space-around;
+        /* border: 2px solid red; */
+        width: auto;
+    }
+    
+    .image-info h1 {
+        font-size: 1rem;
+        margin-top: 5px;
+    
+    }
+    
+    .image-info p {
+        font-size: .9rem;
+    }
+}
+
+/* ipad pro screens & laptop */
+@media only screen and (min-width:49.0em) and (max-width:64em) {
+
+    
+.portfolio {
+    padding: 30px 0;
+    margin: 50px 0;
 }
 
 .portfolio-title {
@@ -12,33 +167,52 @@
 
 .portfolio-title h1 {
     font-size:1.6rem;
+    font-weight: 600;
 }
 
 .portfolio-layout {
     display: flex;
-    flex-direction: column;
+    /* flex-wrap: wrap; */
+    /* border: 3px solid olive; */
   
 }
 
 .main-layout {
-    display:none;
+    display: flex;
+    flex: 40%;
+    /* border: 2px solid yellow; */
+    background-image: url(../assets/creation1.jpg);
+    background-size: cover;
+    background-position: center;
 }
+
 
 .other-layout {
+    flex: 40%;
     display: flex;
+    justify-content: space-evenly;
+    align-items: center;
     flex-wrap: wrap;
     row-gap: 20px;
-    border: 2px solid black
+    /* border: 2px solid blueviolet; */
 }
 
+.image-layout {
+    display: flex;
+}
+
+.inner-layout {
+    /* border: 2px solid pink; */
+    width:250px;
+    display: flex;
+    flex-direction: column;
+}
 
 .other-image {
-    display: flex;
-    width: 100%;
+    /* border: 2px solid green; */
+    height: 150px;
     object-fit: cover;
     object-position: center;
-    border: 2px solid blue;
-    
 }
 
 .image-info {
@@ -46,6 +220,7 @@
     flex-direction: column;
     justify-content:space-around;
     /* border: 2px solid red; */
+    width: auto;
 }
 
 .image-info h1 {
@@ -56,4 +231,6 @@
 
 .image-info p {
     font-size: .9rem;
+}
+
 }

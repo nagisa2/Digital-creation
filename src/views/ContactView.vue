@@ -1,4 +1,4 @@
-<template>
+ <template>
   <div class="contact">
     <div class="contact-container">
       <div class="contact-heading">
@@ -46,7 +46,7 @@
         </div>
         <div class="contacts-link-b">
           <h1>Our social platform</h1>
-          <h3>check out our social media platforms for more info</h3>
+          <h3>check out our social media platforms</h3>
           <div class="social-container">
             <div class="social-link">
               <img

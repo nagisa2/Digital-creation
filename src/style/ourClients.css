@@ -113,7 +113,7 @@
 .client-title h1 {
  
     font-size:1.6rem;
-    font-weight: 600;
+    font-weight: 500;
 }
 
 .client-list li {
@@ -124,7 +124,7 @@
 }
 
 .client-list li ul {
-    font-weight: 800;   
+    font-weight: 500;   
     font-size: 1.6rem;
     color: var(--fade-color);
 }

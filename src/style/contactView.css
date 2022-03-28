@@ -4,9 +4,15 @@
     padding: 20px;
     display: flex;
     align-items: center;
-    justify-content:center;
+    width:100%;
+    justify-content: space-between;
     background-color: var(--primary-color);
 }
+
+.contact-container {
+    width: 100%;
+}
+
 .contact-heading {
     display: flex;
     align-items: center;
@@ -19,7 +25,8 @@
 .contact-info-h h1 {
     color: var(--bg-color);
     text-align: center;
-    font-size: 1.8rem;
+    font-size: 1.6rem;
+    font-weight: 500;
    
     
 }
@@ -28,8 +35,6 @@
     gap: 30px;
     display:flex;
     margin: 30px 0;
-    display: flex;
-    justify-content:flex-end;
 
 }
 
@@ -39,10 +44,10 @@
     border: none;
     cursor:pointer;
     font-weight:100;
-    font-size: .8rem;
+    font-size: .7rem;
     border-radius: 5px;
     text-align: center;
-    padding: 10px 20px;
+    padding: 8px 12px;
     color: var(--primary-color);
     background-color: var(--bg-color);
     align-items: center;
@@ -72,15 +77,14 @@
 }
 
 .btn-hide-h:hover {
-
     outline:none;
     border: none;
     cursor:pointer;
     font-weight:100;
-    font-size: .8rem;
+    font-size: .7rem;
     border-radius: 5px;
     text-align: center;
-    padding: 10px 20px;
+    padding: 8px 12px;
     color: var(--primary-color);
     background-color: var(--bg-color);
     align-items: center;
@@ -94,14 +98,16 @@
     height: 1px;
     border: 0;
     border-top: 1px solid var(--bg-color);
-    margin: 1em 0;
+    margin: .6em 0;
     padding: 0;
 }
 
 .contacts-link-container {
-    gap: 30px;
+    gap: 10px;
     display: flex;
     flex-direction: column;
+    justify-content: center;
+ 
 }
 
 
@@ -111,12 +117,13 @@
 }
 
 .contacts-link-a h1 {
-    font-size: 2rem;
+    font-size: 1.7rem;
+    font-weight: 500;
 }
 
 .contacts-link-a h3 {
     font-weight: 100;
-    font-size: 1.1rem;
+    font-size: .9rem;
 }
 
 .contact-links {
@@ -126,11 +133,15 @@
 }
 .contact-link {
     display: flex;
-    column-gap: 10px;
+    column-gap: 7px;
     color: var(--bg-color);
     align-items: center;
   
     
+}
+
+.contact-link span {
+    font-size: .8rem;
 }
 
 .location {
@@ -141,27 +152,31 @@
 
 .contact-icon {
     margin: 5px 0;
-    height: 30px;
-    width: 30px;
+    height: 25px;
+    width: 25px;
 }
 
 .contacts-link-b {
-    display: flex;
-    flex-direction: column;
+    display: block;
 }
 
 .contacts-link-b h1,h3 {
-    color: var(--bg-color   );
+    color: var(--bg-color);
 
 }
 
 .contacts-link-b h1 {
-    font-size: 2rem;
+    font-size: 1.7rem;
+    font-weight: 500;
 }
 
 .contacts-link-b h3 {
-    font-size: 1rem;
+    font-size: .8rem;
+    width:50%;
+    text-align:start;
     font-weight: 100;
+    display: flex;
+    justify-content:center;
 }
 
 .social-container {
@@ -180,8 +195,8 @@
 }
 
 .social-icon {
-    height:35px;
-    width: 35px;
+    height:30px;
+    width: 30px;
     fill: var(--bg-color);
 }
 
@@ -192,7 +207,691 @@
 .footer h1 {
 
     padding-top: 30px;
-    font-size: 1.3rem;
+    font-size: 1rem;
+    font-weight: 100;
 }
+
+}
+
+/* ipad/tablet */
+@media only screen and (min-width:48.0em){ 
+
+    .contact {
+        padding: 20px;
+    }
+    
+    .contact-container {
+        width: 100%;
+    }
+    
+    .contact-heading {
+        flex-direction: row;
+    }
+    
+    
+    .contact-info-h h1 {
+        text-align: start;
+        font-size: 1.6rem;
+        font-weight: 500;
+        width:90%;
+       
+        
+    }
+    
+    .contact-btn {
+        gap: 30px;
+        display:flex;
+        margin: 30px 0;
+        justify-content:flex-end;
+    
+    }
+    
+    
+    .btn-heading {
+        font-size: .8rem;
+        padding: 8px 12px;
+    
+    }
+    
+    
+    .arrow-h {
+        height: 20px;
+        width: 20px;
+        margin-left: 5px;
+    }
+    
+    .btn-hide-h {
+        font-size: .7rem;
+    }
+    
+    .btn-hide-h:hover {
+        font-size: .7rem;
+        border-radius: 5px;
+        padding: 8px 12px;
+    
+    }
+
+    .contacts-link-container {
+        gap: 10px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+     
+    }
+    
+    
+    .contacts-link-a h1 , h3 {
+        color: var(--bg-color);
+    
+    }
+    
+    .contacts-link-a h1 {
+        font-size: 1.7rem;
+    }
+    
+    .contacts-link-a h3 {
+        font-weight: 100;
+        font-size: 1rem;
+    }
+    
+    .contact-links {
+        display: flex;
+        flex-direction: column;
+        
+    }
+    .contact-link {
+        display: flex;
+        column-gap: 7px;
+        color: var(--bg-color);
+        align-items: center;
+
+    }
+    
+    .contact-link span {
+        font-size: .8rem;
+    }
+    
+    .location {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    
+    .contact-icon {
+        margin: 5px 0;
+        height: 25px;
+        width: 25px;
+    }
+    
+    .contacts-link-b {
+        display: block;
+    }
+    
+    .contacts-link-b h1,h3 {
+        color: var(--bg-color);
+    
+    }
+    
+    .contacts-link-b h1 {
+        font-size: 1.7rem;
+        text-align:end;
+    }
+    
+    .contacts-link-b h3 {
+        font-size: .9rem;
+        width:100%;
+        text-align: end;
+        font-weight: 100;
+        display: flex;
+        justify-content:center;
+    }
+    
+    .social-container {
+        display: flex;
+        margin: 5px 0;
+        flex-direction: column;
+       
+    }
+    
+    .social-link {
+    
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    
+    }
+    
+    .social-icon {
+        height:35px;
+        width: 35px;
+        fill: var(--bg-color);
+    }
+    
+    .footer {
+        display: flex;
+        justify-content:center;
+    }
+    
+    .footer h1 {
+    
+        padding-top: 30px;
+        font-size: 1rem;
+        font-weight: 100;
+    }
+}
+
+
+/* ipad pro screens & laptop */
+@media only screen and (min-width:49.0em) and (max-width:64em) {
+
+    .contact {
+        padding: 40px;
+    }
+    
+    .contact-container {
+        width: 100%;
+    }
+    
+    .contact-heading {
+        flex-direction: row;
+    }
+    
+    
+    .contact-info-h h1 {
+        text-align: start;
+        font-size: 2rem;
+        font-weight: 500;
+        width:90%;
+       
+        
+    }
+    
+    .contact-btn {
+        gap: 30px;
+        display:flex;
+        margin: 30px 0;
+        justify-content:flex-end;
+    
+    }
+    
+    
+    .btn-heading {
+        font-size: .9rem;
+        padding: 10px 14px;
+    
+    }
+    
+    
+    .arrow-h {
+        height: 23px;
+        width: 23px;
+        margin-left: 5px;
+    }
+    
+    .btn-hide-h {
+        font-size: .9rem;
+    }
+    
+    .btn-hide-h:hover {
+        font-size: .9rem;
+        padding: 10px 14px;
+    
+    }
+    
+    .contacts-link-container {
+        gap: 10px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+     
+    }
+    
+    
+    .contacts-link-a h1 , h3 {
+        color: var(--bg-color);
+    
+    }
+    
+    .contacts-link-a h1 {
+        font-size: 2rem;
+    }
+    
+    .contacts-link-a h3 {
+        font-weight: 100;
+        font-size: 1.2rem;
+    }
+    
+    .contact-links {
+        display: flex;
+        flex-direction: column;
+        
+    }
+    .contact-link {
+        display: flex;
+        column-gap: 8px;
+        margin: 3px 0;
+        color: var(--bg-color);
+        align-items: center;
+
+    }
+    
+    .contact-link span {
+        font-size: 1.2rem;
+    }
+    
+    .location {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    
+    .contact-icon {
+        margin: 5px 0;
+        height: 35px;
+        width: 35px;
+    }
+    
+    .contacts-link-b {
+        display: block;
+    }
+    
+    .contacts-link-b h1,h3 {
+        color: var(--bg-color);
+    
+    }
+    
+    .contacts-link-b h1 {
+        font-size: 2rem;
+        text-align:end;
+    }
+    
+    .contacts-link-b h3 {
+        font-size: 1rem;
+        width:100%;
+        text-align: end;
+        font-weight: 100;
+        display: flex;
+        justify-content:center;
+    }
+    
+    .social-container {
+        display: flex;
+        margin: 5px 0;
+        flex-direction: column;
+       
+    }
+    
+    .social-link {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: flex-start space-between;
+
+    
+    }
+    
+    .social-icon {
+        height:38px;
+        width: 38px;
+        fill: var(--bg-color);
+    }
+    
+    .footer {
+        display: flex;
+        justify-content:center;
+    }
+    
+    .footer h1 {
+    
+        padding-top: 30px;
+        font-size: 1rem;
+        font-weight: 100;
+    }
+
+}
+
+
+/* large screens : Desktop and 4k screens */
+
+@media only screen and (min-width:64.063em) and (max-width:90.0em) {
+
+  
+    .contact {
+        padding: 60px;
+    }
+    
+    .contact-container {
+        width: 100%;
+    }
+    
+    .contact-heading {
+        flex-direction: row;
+    }
+    
+    
+    .contact-info-h h1 {
+        text-align: start;
+        font-size: 2.2rem;
+        font-weight: 500;
+        width:90%;
+       
+        
+    }
+    
+    .contact-btn {
+        gap: 30px;
+        display:flex;
+        margin: 30px 0;
+        justify-content:flex-end;
+    
+    }
+    
+    
+    .btn-heading {
+        font-size: 1rem;
+        padding: 12px 16px;
+    
+    }
+    
+    
+    .arrow-h {
+        height: 24px;
+        width: 24px;
+        margin-left: 5px;
+    }
+    
+    .btn-hide-h {
+        font-size: 1rem;
+    }
+    
+    .btn-hide-h:hover {
+        font-size: 1rem;
+        padding: 12px 16px;
+    
+    }
+    
+    
+    .contacts-link-container {
+        gap: 10px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+     
+    }
+    
+    
+    .contacts-link-a h1 , h3 {
+        color: var(--bg-color);
+    
+    }
+    
+    .contacts-link-a h1 {
+        font-size: 2.1rem;
+    }
+    
+    .contacts-link-a h3 {
+        font-weight: 100;
+        font-size: 1.2rem;
+    }
+    
+    .contact-links {
+        display: flex;
+        flex-direction: column;
+        
+    }
+    .contact-link {
+        display: flex;
+        column-gap: 8px;
+        margin: 3px 0;
+        color: var(--bg-color);
+        align-items: center;
+
+    }
+    
+    .contact-link span {
+        font-size: 1.2rem;
+    }
+    
+    .location {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    
+    .contact-icon {
+        margin: 5px 0;
+        height: 35px;
+        width: 35px;
+    }
+    
+    .contacts-link-b {
+        display: block;
+    }
+    
+    .contacts-link-b h1,h3 {
+        color: var(--bg-color);
+    
+    }
+    
+    .contacts-link-b h1 {
+        font-size: 2.2rem;
+        text-align:end;
+    }
+    
+    .contacts-link-b h3 {
+        font-size: 1.4rem;
+        width:100%;
+        text-align: end;
+        font-weight: 100;
+        display: flex;
+        justify-content:center;
+    }
+    
+    .social-container {
+        display: flex;
+        margin: 5px 0;
+        flex-direction: column;
+       
+    }
+    
+    .social-link {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: flex-start space-between;
+
+    
+    }
+    
+    .social-icon {
+        height:38px;
+        width: 38px;
+        fill: var(--bg-color);
+    }
+    
+    .footer {
+        display: flex;
+        justify-content:center;
+    }
+    
+    .footer h1 {
+    
+        padding-top: 30px;
+        font-size: 1.2rem;
+        font-weight: 100;
+    }
+
+}
+
+
+/* 5k screens and above */
+@media only screen and (min-width:91.0em) {
+
+     
+    .contact {
+        padding: 60px;
+    }
+    
+    .contact-container {
+        width: 100%;
+    }
+    
+    .contact-heading {
+        flex-direction: row;
+    }
+    
+    
+    .contact-info-h h1 {
+        text-align: start;
+        font-size: 2.2rem;
+        font-weight: 500;
+        width:90%;
+       
+        
+    }
+    
+    .contact-btn {
+        gap: 30px;
+        display:flex;
+        margin: 30px 0;
+        justify-content:flex-end;
+    
+    }
+    
+    
+    .btn-heading {
+        font-size: 1rem;
+        padding: 12px 16px;
+    
+    }
+    
+    
+    .arrow-h {
+        height: 24px;
+        width: 24px;
+        margin-left: 5px;
+    }
+    
+    .btn-hide-h {
+        font-size: 1rem;
+    }
+    
+    .btn-hide-h:hover {
+        font-size: 1rem;
+        padding: 12px 16px;
+    
+    }
+    
+    
+    .contacts-link-container {
+        gap: 10px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+     
+    }
+    
+    
+    .contacts-link-a h1 , h3 {
+        color: var(--bg-color);
+    
+    }
+    
+    .contacts-link-a h1 {
+        font-size: 2.1rem;
+    }
+    
+    .contacts-link-a h3 {
+        font-weight: 100;
+        font-size: 1.2rem;
+    }
+    
+    .contact-links {
+        display: flex;
+        flex-direction: column;
+        
+    }
+    .contact-link {
+        display: flex;
+        column-gap: 8px;
+        margin: 3px 0;
+        color: var(--bg-color);
+        align-items: center;
+
+    }
+    
+    .contact-link span {
+        font-size: 1.2rem;
+    }
+    
+    .location {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    
+    .contact-icon {
+        margin: 5px 0;
+        height: 35px;
+        width: 35px;
+    }
+    
+    .contacts-link-b {
+        display: block;
+    }
+    
+    .contacts-link-b h1,h3 {
+        color: var(--bg-color);
+    
+    }
+    
+    .contacts-link-b h1 {
+        font-size: 2.2rem;
+        text-align:end;
+    }
+    
+    .contacts-link-b h3 {
+        font-size: 1.4rem;
+        width:100%;
+        text-align: end;
+        font-weight: 100;
+        display: flex;
+        justify-content:center;
+    }
+    
+    .social-container {
+        display: flex;
+        margin: 5px 0;
+        flex-direction: column;
+       
+    }
+    
+    .social-link {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: flex-start space-between;
+
+    
+    }
+    
+    .social-icon {
+        height:38px;
+        width: 38px;
+        fill: var(--bg-color);
+    }
+    
+    .footer {
+        display: flex;
+        justify-content:center;
+    }
+    
+    .footer h1 {
+    
+        padding-top: 30px;
+        font-size: 1.2rem;
+        font-weight: 100;
+    }
 
 }

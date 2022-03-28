@@ -218,13 +218,13 @@
 @media only screen and (min-width:64.063em) and (max-width:90.0em) {
 
   .img-company {
-    height: 900px;
-    width: 1400px;
+    height: 700px;
+    width: 1200px;
     border-radius:20px;
   }
   
   .img-slide {
-    width: 7000px; 
+    width: 6000px; 
     animation: slide 18s linear infinite;
     -webkit-animation: slide 18s linear infinite;
   }
@@ -234,8 +234,9 @@
   } */
   
   .slide {
-    height: 900px;
-    width: 1400px;
+
+    height: 700px;
+    width: 1200px;
   }
   
   .slide:nth-child(1) {
@@ -263,23 +264,23 @@
   
   @-webkit-keyframes slide {
       10% {margin-left: 0px;}
-      20% {margin-left: -1400px;}
-      30% {margin-left: -1400px;}
-      40% {margin-left: -2800px;}
-      50% {margin-left: -2800px;}
-      60% {margin-left: -5600px;}
-      70% {margin-left: -5600px;}
+      20% {margin-left: -1200px;}
+      30% {margin-left: -1200px;}
+      40% {margin-left: -2400px;}
+      50% {margin-left: -2400px;}
+      60% {margin-left: -4800px;}
+      70% {margin-left: -4800px;}
   }
   
   
   @keyframes slide {
     10% {margin-left: 0px;}
-      20% {margin-left: -1400px;}
-      30% {margin-left: -1400px;}
-      40% {margin-left: -2800px;}
-      50% {margin-left: -2800px;}
-      60% {margin-left: -5600px;}
-      70% {margin-left: -5600px;}
+    20% {margin-left: -1200px;}
+    30% {margin-left: -1200px;}
+    40% {margin-left: -2400px;}
+    50% {margin-left: -2400px;}
+    60% {margin-left: -4800px;}
+    70% {margin-left: -4800px;}
 
 }
 

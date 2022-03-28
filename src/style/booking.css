@@ -230,9 +230,9 @@
 
     .booking-cfg {
         display: flex;
-        flex-direction: row;
-        border: 2px solid black;
         align-items:center;
+        flex-direction: row;
+       
     }
 
     .booking-info , .booking-card {
@@ -248,11 +248,18 @@
     .card-info h1 {
         font-size: 1.5rem;
     }
+
+
+    
+    .card-info {
+        display: block; 
+    }
     
     .card-info p {
         font-size: 1.2rem;
         
     }
+
     
     
     .call-span {
@@ -293,3 +300,167 @@
 
 }
 
+/* large screens : Desktop and 4k screens */
+
+@media only screen and (min-width:64.063em) and (max-width:90.0em) {
+
+
+    .booking {
+        display: flex;
+        height:90vh;
+        align-items: center;
+        justify-content: center;
+        
+        
+    }
+
+    .booking-cfg {
+        display: flex;
+        flex-direction: row;
+        align-items:center;
+    }
+
+    .booking-info , .booking-card {
+        flex: 50%;
+    }
+
+
+    .card-info h1,p {
+        text-align:start;
+        padding: 10px 0;
+    }
+    
+    .card-info h1 {
+        font-size: 1.8rem;
+    }
+
+
+    
+    .card-info {
+        display: block; 
+    }
+    
+    .card-info p {
+        font-size: 1.4rem;
+        
+    }
+
+    
+    
+    .call-span {
+     
+        width:130px;
+        height: 38px;
+        margin: 10px 0;
+       
+    }
+    
+    .call-cfg span {
+    
+        font-size:.9rem;
+    }
+    
+    .phone-icon {
+        height:24px;
+        width:24px;
+       
+    }
+
+.booking-input, .booking-textarea {
+    padding: 13px 5px;
+}
+
+
+    
+    
+    .b-card {   
+        padding:0 20px;
+    }
+    
+    
+    .booking-btn {
+        font-size:1.2rem;
+    }
+}
+
+/* 5k screens and above */
+@media only screen and (min-width:91.0em) {
+
+    .booking {
+        display: flex;
+        height:90vh;
+        align-items: center;
+        justify-content: center;
+        
+        
+    }
+
+    .booking-cfg {
+        display: flex;
+        flex-direction: row;
+        align-items:center;
+    }
+
+    .booking-info , .booking-card {
+        flex: 50%;
+    }
+
+
+    .card-info h1,p {
+        text-align:start;
+        padding: 10px 0;
+    }
+    
+    .card-info h1 {
+        font-size: 1.8rem;
+    }
+
+
+    
+    .card-info {
+        display: block; 
+    }
+    
+    .card-info p {
+        font-size: 1.4rem;
+        
+    }
+
+    
+    
+    .call-span {
+     
+        width:130px;
+        height: 38px;
+        margin: 10px 0;
+       
+    }
+    
+    .call-cfg span {
+    
+        font-size:.9rem;
+    }
+    
+    .phone-icon {
+        height:24px;
+        width:24px;
+       
+    }
+
+.booking-input, .booking-textarea {
+    padding: 13px 5px;
+}
+
+
+    
+    
+    .b-card {   
+        padding:0 20px;
+    }
+    
+    
+    .booking-btn {
+        font-size:1.2rem;
+    }
+
+}
