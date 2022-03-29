@@ -28,9 +28,7 @@
       </div>
       <div class="testimony-card">
         <img src="../assets/comment.svg" class="comment-img" />
-        <p>
-          Digital creation is the future of design,thank you for a masterpiece
-        </p>
+        <p>They produce quality designs and prints</p>
         <div class="testimony-container">
           <div class="star-container">
             <div class="star-contained">
@@ -45,14 +43,12 @@
             </div>
             <div></div>
           </div>
-          <span>Mary</span>
+          <span>Dan</span>
         </div>
       </div>
       <div class="testimony-card">
         <img src="../assets/comment.svg" class="comment-img" />
-        <p>
-          Digital creation is the future of design,thank you for a masterpiece
-        </p>
+        <p>You guys are very affordable, my first choice always</p>
         <div class="testimony-container">
           <div class="star-container">
             <div class="star-contained">
@@ -67,14 +63,12 @@
             </div>
             <div></div>
           </div>
-          <span>Mary</span>
+          <span>Junior</span>
         </div>
       </div>
       <div class="testimony-card">
         <img src="../assets/comment.svg" class="comment-img" />
-        <p>
-          Digital creation is the future of design,thank you for a masterpiece
-        </p>
+        <p>always on time npm and on point</p>
         <div class="testimony-container">
           <div class="star-container">
             <div class="star-contained">
@@ -89,7 +83,7 @@
             </div>
             <div></div>
           </div>
-          <span>Mary</span>
+          <span>Brian</span>
         </div>
       </div>
     </div>

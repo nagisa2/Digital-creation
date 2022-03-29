@@ -14,7 +14,7 @@
             </div>
           </div>
           <div class="card-back">
-            <img src="../assets/banner.PNG" alt="card image" class="img-back" />
+            <img src="../assets/banner.png" alt="card image" class="img-back" />
           </div>
         </div>
       </div>
@@ -29,7 +29,7 @@
           </div>
           <div class="card-back">
             <img
-              src="../assets/StreetBanner.PNG"
+              src="../assets/StreetBanner.png"
               alt="card image"
               class="img-back"
             />
@@ -78,7 +78,7 @@
             </div>
           </div>
           <div class="card-back">
-            <img src="../assets/sinage.PNG" alt="card image" class="img-back" />
+            <img src="../assets/sinage.png" alt="card image" class="img-back" />
           </div>
         </div>
       </div>
@@ -93,7 +93,7 @@
           </div>
           <div class="card-back">
             <img
-              src="../assets/vehicle.PNG"
+              src="../assets/vehicle.png"
               alt="card image"
               class="img-back"
             />
@@ -111,7 +111,7 @@
           </div>
           <div class="card-back">
             <img
-              src="../assets/delivery.PNG"
+              src="../assets/delivery.png"
               alt="card image"
               class="img-back"
             />
@@ -161,7 +161,7 @@
           </div>
           <div class="card-back">
             <img
-              src="../assets/teardrop.PNG"
+              src="../assets/teardrop.png"
               alt="card image"
               class="img-back"
             />
@@ -179,7 +179,7 @@
           </div>
           <div class="card-back">
             <img
-              src="../assets/backlit.PNG"
+              src="../assets/backlit.png"
               alt="card image"
               class="img-back"
             />
@@ -196,7 +196,7 @@
             </div>
           </div>
           <div class="card-back">
-            <img src="../assets/3D.PNG" alt="card image" class="img-back" />
+            <img src="../assets/3D.png" alt="card image" class="img-back" />
           </div>
         </div>
       </div>
@@ -210,7 +210,7 @@
             </div>
           </div>
           <div class="card-back">
-            <img src="../assets/laser.PNG" alt="card image" class="img-back" />
+            <img src="../assets/laser.png" alt="card image" class="img-back" />
           </div>
         </div>
       </div>
@@ -224,7 +224,7 @@
             </div>
           </div>
           <div class="card-back">
-            <img src="../assets/screen.PNG" alt="card image" class="img-back" />
+            <img src="../assets/screen.png" alt="card image" class="img-back" />
           </div>
         </div>
       </div>
