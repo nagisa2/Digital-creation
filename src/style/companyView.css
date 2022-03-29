@@ -49,7 +49,7 @@
     border: none;
     cursor:pointer;
     font-weight:100;
-    font-size: .7rem;
+    font-size: 1rem;
     border-radius: 9px;
     text-align: center;
     padding: 10px 20px;
@@ -74,6 +74,7 @@
     outline:none;
     border:none;
     font-weight:100;
+    font-size: 1rem;
     color: var(--bg-color);
     background-color: var(--primary-color);
 }
@@ -84,7 +85,7 @@
     border: none;
     cursor:pointer;
     font-weight:100;
-    font-size: .8rem;
+    font-size: 1rem;
     border-radius: 8px;
     text-align: center;
     padding: 10px 25px;
