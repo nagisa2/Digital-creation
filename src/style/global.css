@@ -20,6 +20,10 @@
 
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     
     font-weight: 100;
@@ -47,6 +51,11 @@ h1, h2 {
     overflow-x: hidden;
 }
 
+@media (prefers-reduced-motion: no-preference) {
+	html {
+		scroll-behavior: smooth;
+	}
+}
 
 
 @media screen {}

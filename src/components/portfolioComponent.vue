@@ -40,7 +40,7 @@
               class="other-image"
             />
             <div class="image-info">
-              <h1>Billboard</h1>
+              <h1>Branding</h1>
               <p>this is pen branding</p>
             </div>
           </div>

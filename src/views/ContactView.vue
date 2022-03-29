@@ -1,4 +1,4 @@
- <template>
+<template>
   <div class="contact">
     <div class="contact-container">
       <div class="contact-heading">
@@ -6,7 +6,7 @@
           <h1>Are you instrested in working with us?</h1>
         </div>
         <div class="contact-btn">
-          <button class="btn-heading">
+          <button class="btn-heading" @click="whatsapp()">
             <div class="btn-cfg">
               Let's chat <img src="../assets/arrow-green.svg" class="arrow-h" />
             </div>
@@ -53,6 +53,7 @@
                 src="../assets/whatsapp.svg"
                 alt="whatsapp"
                 class="social-icon"
+                @click="whatsapp()"
               />
               <img
                 src="../assets/Instagram.svg"
@@ -79,7 +80,25 @@
     </div>
   </div>
 </template>
-<script></script>
+<script>
+export default {
+  data() {
+    return {};
+  },
+
+  methods: {
+    facebook() {},
+
+    whatsapp() {
+      window.open(
+        "https://web.whatsapp.com/send?text==Hi, i wanna know more about your design work &phone=0722925034",
+        "Share with Whatsapp Web",
+        "width=800,height=600"
+      );
+    },
+  },
+};
+</script>
 <style>
 @import "../style/contactView.css";
 </style>

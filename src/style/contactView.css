@@ -199,6 +199,7 @@
     height:30px;
     width: 30px;
     fill: var(--bg-color);
+    cursor: pointer;
 }
 
 .footer {
