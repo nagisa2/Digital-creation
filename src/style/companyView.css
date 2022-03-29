@@ -48,8 +48,8 @@
     outline:none;
     border: none;
     cursor:pointer;
-    font-weight:100;
-    font-size: 1rem;
+    font-weight:500;
+    font-size: .8rem;
     border-radius: 9px;
     text-align: center;
     padding: 10px 20px;
@@ -73,8 +73,8 @@
 .btn-hide {
     outline:none;
     border:none;
-    font-weight:100;
-    font-size: 1rem;
+    font-weight:500;
+    font-size: .8rem;
     color: var(--bg-color);
     background-color: var(--primary-color);
 }
@@ -84,8 +84,8 @@
     outline:none;
     border: none;
     cursor:pointer;
-    font-weight:100;
-    font-size: 1rem;
+    font-weight:500;
+    font-size: .8rem;
     border-radius: 8px;
     text-align: center;
     padding: 10px 25px;

@@ -43,8 +43,8 @@
     outline:none;
     border: none;
     cursor:pointer;
-    font-weight:100;
-    font-size: .7rem;
+    font-weight:500;
+    font-size: .8rem;
     border-radius: 5px;
     text-align: center;
     padding: 8px 12px;
@@ -71,7 +71,8 @@
 .btn-hide-h {
     outline:none;
     border:none;
-    font-weight:100;
+    font-weight:500;
+    font-size: .8rem;
     color: var(--bg-color);
     background-color: var(--primary-color);
 }
@@ -80,8 +81,8 @@
     outline:none;
     border: none;
     cursor:pointer;
-    font-weight:100;
-    font-size: .7rem;
+    font-weight:500;
+    font-size: .8rem;
     border-radius: 5px;
     text-align: center;
     padding: 8px 12px;
