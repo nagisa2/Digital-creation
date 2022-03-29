@@ -28,7 +28,7 @@
       </div>
       <div class="testimony-card">
         <img src="../assets/comment.svg" class="comment-img" />
-        <p>They produce quality designs and prints</p>
+        <p>They produce quality designs and prints, i recommend them</p>
         <div class="testimony-container">
           <div class="star-container">
             <div class="star-contained">
@@ -68,7 +68,7 @@
       </div>
       <div class="testimony-card">
         <img src="../assets/comment.svg" class="comment-img" />
-        <p>always on time npm and on point</p>
+        <p>always on time and on point, the best to eork with</p>
         <div class="testimony-container">
           <div class="star-container">
             <div class="star-contained">
