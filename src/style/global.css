@@ -60,7 +60,6 @@ h1, h2 {
 }
 
 /* large screens : Desktop and 4k screens */
-
 @media only screen and (min-width:64.063em) and (max-width:90.0em) {
 }
 

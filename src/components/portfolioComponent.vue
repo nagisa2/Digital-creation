@@ -9,12 +9,12 @@
         <div class="image-layout">
           <div class="inner-layout">
             <img
-              src="../assets/creation3.jpg"
+              src="../assets/banner.png"
               alt="portfolio image"
               class="other-image"
             />
             <div class="image-info">
-              <h1>Billboard</h1>
+              <h1>Banner</h1>
               <p>this can be found along jogoo road</p>
             </div>
           </div>
@@ -22,12 +22,12 @@
         <div class="image-layout">
           <div class="inner-layout">
             <img
-              src="../assets/creation3.jpg"
+              src="../assets/banner1.jpeg"
               alt="portfolio image"
               class="other-image"
             />
             <div class="image-info">
-              <h1>Billboard</h1>
+              <h1>Banner</h1>
               <p>this can be found along jogoo road</p>
             </div>
           </div>
@@ -35,13 +35,13 @@
         <div class="image-layout">
           <div class="inner-layout">
             <img
-              src="../assets/creation3.jpg"
+              src="../assets/branding.jpeg"
               alt="portfolio image"
               class="other-image"
             />
             <div class="image-info">
               <h1>Billboard</h1>
-              <p>this can be found along jogoo road</p>
+              <p>this is pen branding</p>
             </div>
           </div>
         </div>

@@ -124,7 +124,6 @@
     }
     
     .other-image {
-        /* border: 2px solid green; */
         height: 150px;
         object-fit: cover;
         object-position: center;
@@ -134,7 +133,6 @@
         display: flex;
         flex-direction: column;
         justify-content:space-around;
-        /* border: 2px solid red; */
         width: auto;
     }
     
@@ -172,16 +170,13 @@
 
 .portfolio-layout {
     display: flex;
-    /* flex-wrap: wrap; */
-    /* border: 3px solid olive; */
   
 }
 
 .main-layout {
     display: flex;
     flex: 40%;
-    /* border: 2px solid yellow; */
-    background-image: url(../assets/creation1.jpg);
+    background-image: url(../assets/banner.jpeg);
     background-size: cover;
     background-position: center;
 }
@@ -194,7 +189,7 @@
     align-items: center;
     flex-wrap: wrap;
     row-gap: 20px;
-    /* border: 2px solid blueviolet; */
+
 }
 
 .image-layout {
@@ -202,14 +197,12 @@
 }
 
 .inner-layout {
-    /* border: 2px solid pink; */
     width:250px;
     display: flex;
     flex-direction: column;
 }
 
 .other-image {
-    /* border: 2px solid green; */
     height: 150px;
     object-fit: cover;
     object-position: center;
@@ -219,7 +212,6 @@
     display: flex;
     flex-direction: column;
     justify-content:space-around;
-    /* border: 2px solid red; */
     width: auto;
 }
 
@@ -233,4 +225,83 @@
     font-size: .9rem;
 }
 
+}
+
+/* large screens : Desktop and 4k screens */
+@media only screen and (min-width:64.063em) and (max-width:90.0em) {
+
+    .portfolio {
+        padding: 30px 0;
+        margin: 50px 0;
+    }
+    
+    .portfolio-title {
+        display:flex;
+        width:100%;
+        height:50px;
+    
+    }
+    
+    .portfolio-title h1 {
+        font-size:1.6rem;
+        font-weight: 600;
+    }
+    
+    .portfolio-layout {
+        display: flex;
+      
+    }
+    
+    .main-layout {
+        display: flex;
+        flex: 40%;
+        background-image: url(../assets/banner.jpeg);
+        background-size: cover;
+        background-position: center;
+    }
+    
+    
+    .other-layout {
+        flex: 40%;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        flex-wrap: wrap;
+        row-gap: 20px;
+    
+    }
+    
+    .image-layout {
+        display: flex;
+    }
+    
+    .inner-layout {
+        width:250px;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .other-image {
+        height: 150px;
+        object-fit: cover;
+        object-position: center;
+    }
+    
+    .image-info {
+        display: flex;
+        flex-direction: column;
+        justify-content:space-around;
+        width: auto;
+    }
+    
+    .image-info h1 {
+        font-size: 1rem;
+        margin-top: 5px;
+    
+    }
+    
+    .image-info p {
+        font-size: .9rem;
+    }
+    
 }
