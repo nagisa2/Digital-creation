@@ -105,30 +105,12 @@
           <div class="card-front">
             <div class="card-details">
               <img src="../assets/logo.svg" alt="logo" class="img-front" />
-              <h4>Delivery</h4>
-              <p>We deliver your work to you</p>
+              <h4>Wheel covers</h4>
+              <p>We do wheel covers</p>
             </div>
           </div>
           <div class="card-back">
-            <img
-              src="../assets/delivery.png"
-              alt="card image"
-              class="img-back"
-            />
-          </div>
-        </div>
-      </div>
-      <div class="service-card">
-        <div class="service-cfg">
-          <div class="card-front">
-            <div class="card-details">
-              <img src="../assets/logo.svg" alt="logo" class="img-front" />
-              <h4>Offset printing</h4>
-              <p>We do offset printing</p>
-            </div>
-          </div>
-          <div class="card-back">
-            <img src="../assets/offset.jpg" alt="card image" class="img-back" />
+            <img src="../assets/wheel.png" alt="card image" class="img-back" />
           </div>
         </div>
       </div>
@@ -197,34 +179,6 @@
           </div>
           <div class="card-back">
             <img src="../assets/3D.png" alt="card image" class="img-back" />
-          </div>
-        </div>
-      </div>
-      <div class="service-card">
-        <div class="service-cfg">
-          <div class="card-front">
-            <div class="card-details">
-              <img src="../assets/logo.svg" alt="logo" class="img-front" />
-              <h4>Laser engraving</h4>
-              <p>We design do laser engraving</p>
-            </div>
-          </div>
-          <div class="card-back">
-            <img src="../assets/laser.png" alt="card image" class="img-back" />
-          </div>
-        </div>
-      </div>
-      <div class="service-card">
-        <div class="service-cfg">
-          <div class="card-front">
-            <div class="card-details">
-              <img src="../assets/logo.svg" alt="logo" class="img-front" />
-              <h4>Screen printing</h4>
-              <p>We do screen printing</p>
-            </div>
-          </div>
-          <div class="card-back">
-            <img src="../assets/screen.png" alt="card image" class="img-back" />
           </div>
         </div>
       </div>

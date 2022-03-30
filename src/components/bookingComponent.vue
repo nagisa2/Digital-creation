@@ -21,12 +21,13 @@
           <div class="book-title">
             <h1>Book with us</h1>
           </div>
-          <form class="booking-form">
+          <form class="booking-form" @submit.prevent="Book()">
             <input
               type="text"
-              v-model="Name"
+              v-model="form.Name"
               placeholder="Name"
               class="booking-input"
+              required
             />
             <input
               type="text"
@@ -35,12 +36,13 @@
               class="booking-input"
             />
             <textarea
-              v-model="Message"
+              v-model="form.Message"
               placeholder="Tell us what you want"
               class="booking-textarea"
+              required
             />
+            <button class="booking-btn" type="submit">Book now</button>
           </form>
-          <button class="booking-btn">Book now</button>
         </div>
       </div>
     </div>
@@ -56,6 +58,13 @@ export default {
         Message: "",
       },
     };
+  },
+
+  methods: {
+    Book() {
+      let { Name, Message } = this.form;
+      location.href = `https://wa.me/254722925034/?text=Hi, iam ${Name}, ${Message}`;
+    },
   },
 };
 </script>

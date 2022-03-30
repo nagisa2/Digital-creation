@@ -6,12 +6,12 @@
           <h1>Are you instrested in working with us?</h1>
         </div>
         <div class="contact-btn">
-          <button class="btn-heading" @click="whatsapp()">
+          <button class="btn-heading" @click="chat()">
             <div class="btn-cfg">
               Let's chat <img src="../assets/arrow-green.svg" class="arrow-h" />
             </div>
           </button>
-          <button class="btn-hide-h">
+          <button class="btn-hide-h" @click="booknow()">
             <div class="btn-cfg">
               Book now
               <img src="../assets/arrow-green.svg" class="arrow hide" />
@@ -69,6 +69,7 @@
                 src="../assets/Facebook.svg"
                 alt="facebook"
                 class="social-icon"
+                @click="facebook()"
               />
             </div>
             <div class="footer">
@@ -87,14 +88,20 @@ export default {
   },
 
   methods: {
-    facebook() {},
+    facebook() {
+      location.href = "https://www.facebook.com/morderndigital";
+    },
 
     whatsapp() {
-      window.open(
-        "https://web.whatsapp.com/send?text==Hi, i wanna know more about your design work &phone=0722925034",
-        "Share with Whatsapp Web",
-        "width=800,height=600"
-      );
+      location.href = "https://wa.me/254722925034/?text=Hi, digital creation";
+    },
+
+    chat() {
+      location.href = "https://wa.me/254722925034/?text=Hi, digital creation";
+    },
+
+    booknow() {
+      this.$router.push({ name: "book" });
     },
   },
 };
