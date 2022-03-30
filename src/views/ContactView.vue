@@ -32,7 +32,7 @@
             </div>
             <div class="contact-link">
               <img src="../assets/email.svg" class="contact-icon" /><span
-                >design@digitalcreation.gmail.com</span
+                >info@digitalcreations.co.ke</span
               >
             </div>
             <div class="contact-link">
