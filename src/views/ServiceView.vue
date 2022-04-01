@@ -23,44 +23,8 @@
           <div class="card-front">
             <div class="card-details">
               <img src="../assets/logo.svg" alt="logo" class="img-front" />
-              <h4>Street banners</h4>
-              <p>We design and print street banners</p>
-            </div>
-          </div>
-          <div class="card-back">
-            <img
-              src="../assets/StreetBanner.png"
-              alt="card image"
-              class="img-back"
-            />
-          </div>
-        </div>
-      </div>
-      <div class="service-card">
-        <div class="service-cfg">
-          <div class="card-front">
-            <div class="card-details">
-              <img src="../assets/logo.svg" alt="logo" class="img-front" />
-              <h4>Rollup banners</h4>
-              <p>We design and print rollup banners</p>
-            </div>
-          </div>
-          <div class="card-back">
-            <img
-              src="../assets/rollup.jpeg"
-              alt="card image"
-              class="img-back"
-            />
-          </div>
-        </div>
-      </div>
-      <div class="service-card">
-        <div class="service-cfg">
-          <div class="card-front">
-            <div class="card-details">
-              <img src="../assets/logo.svg" alt="logo" class="img-front" />
-              <h4>Vinly stickers</h4>
-              <p>We design and vinly stickers</p>
+              <h4>Stickers</h4>
+              <p>We design and stickers</p>
             </div>
           </div>
           <div class="card-back">
@@ -165,20 +129,6 @@
               alt="card image"
               class="img-back"
             />
-          </div>
-        </div>
-      </div>
-      <div class="service-card">
-        <div class="service-cfg">
-          <div class="card-front">
-            <div class="card-details">
-              <img src="../assets/logo.svg" alt="logo" class="img-front" />
-              <h4>3D signs</h4>
-              <p>We create 3d signs</p>
-            </div>
-          </div>
-          <div class="card-back">
-            <img src="../assets/3D.png" alt="card image" class="img-back" />
           </div>
         </div>
       </div>

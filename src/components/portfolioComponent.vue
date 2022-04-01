@@ -13,10 +13,6 @@
               alt="portfolio image"
               class="other-image"
             />
-            <div class="image-info">
-              <h1>Banner</h1>
-              <p>this can be found along jogoo road</p>
-            </div>
           </div>
         </div>
         <div class="image-layout">
@@ -26,10 +22,6 @@
               alt="portfolio image"
               class="other-image"
             />
-            <div class="image-info">
-              <h1>Banner</h1>
-              <p>this can be found along jogoo road</p>
-            </div>
           </div>
         </div>
         <div class="image-layout">
@@ -39,10 +31,15 @@
               alt="portfolio image"
               class="other-image"
             />
-            <div class="image-info">
-              <h1>Branding</h1>
-              <p>this is pen branding</p>
-            </div>
+          </div>
+        </div>
+        <div class="image-layout">
+          <div class="inner-layout">
+            <img
+              src="../assets/Banner2.jpeg"
+              alt="portfolio image"
+              class="other-image"
+            />
           </div>
         </div>
         <div class="image-layout">
@@ -52,10 +49,6 @@
               alt="portfolio image"
               class="other-image"
             />
-            <div class="image-info">
-              <h1>Billboard</h1>
-              <p>this can be found along jogoo road</p>
-            </div>
           </div>
         </div>
         <div class="image-layout">
@@ -65,23 +58,6 @@
               alt="portfolio image"
               class="other-image"
             />
-            <div class="image-info">
-              <h1>Billboard</h1>
-              <p>this can be found along jogoo road</p>
-            </div>
-          </div>
-        </div>
-        <div class="image-layout">
-          <div class="inner-layout">
-            <img
-              src="../assets/creation3.jpg"
-              alt="portfolio image"
-              class="other-image"
-            />
-            <div class="image-info">
-              <h1>Billboard</h1>
-              <p>this can be found along jogoo road</p>
-            </div>
           </div>
         </div>
       </div>

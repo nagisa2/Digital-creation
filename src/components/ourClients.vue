@@ -6,22 +6,22 @@
     <div class="client-list">
       <li>
         <ul>
-          Kenya browery
+          Ananas mall
         </ul>
         <ul>
-          Broll kenya
+          Acnes kenya
         </ul>
         <ul>
           Safaricom
         </ul>
         <ul>
-          Kiafrica
+          Cleanshelf supermarket
         </ul>
         <ul>
-          Barclays
+          Kfc
         </ul>
         <ul>
-          Kcb
+          Mitsumi
         </ul>
       </li>
     </div>
